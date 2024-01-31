@@ -22,3 +22,9 @@ git checkout <branch_name>
 
 ### Pull changes from git
 git pull origin main/master/<branch_name>
+
+
+
+Team Red :
+Bhanu Bhoomireddy 
+Varun Kalyan Mandava
