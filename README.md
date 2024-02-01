@@ -28,3 +28,8 @@ git pull origin main/master/<branch_name>
 Team Red :
 Bhanu Bhoomireddy 
 Varun Kalyan Mandava
+
+Team blue:
+Adithya poornavishnu venkatagiri 
+Chandra sekhar uppela
+Badrinath sarap
