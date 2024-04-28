@@ -72,8 +72,8 @@ function Codeeditor() {
   };
 
   const sendMessageToAI = (output, code) => {
-    const apiKey=API_KEY ;
-    const endpoint = OPENAI_BASE_URL;
+    const apiKey = "sk-proj-ZhPobLeyjyM2ILxaYJslT3BlbkFJIzaPTDbw2YI6P63XK03Q";
+    const endpoint = "https://api.openai.com/v1/chat/completions";
 
     const requestData = {
       model: "gpt-3.5-turbo",
