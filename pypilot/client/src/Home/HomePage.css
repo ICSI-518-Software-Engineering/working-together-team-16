@@ -1,0 +1,164 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(135deg, #f0f2f4, #f4f6f7);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Segoe UI', bold;
+    font-size: 35px;
+    margin-top: 2rem;
+    color: #fff;
+}
+
+p {
+    color: #fff;
+    font-family: 'Montserrat light';
+    font-size: 18px;
+}
+
+/* Navbar Styles */
+.navbar {
+    padding: 10px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.nav-link {
+    color: #0E4579 !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f5f5f5;
+    color: #0E4579;
+    box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2), 0 -6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer a {
+    color: #0E4579;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #B58DED;
+}
+
+/* Custom button styles */
+.btn-custom {
+    background: #B58DED;
+    border: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(181, 141, 237, 0.7), 0 6px 20px 0 rgba(181, 141, 237, 0.9);
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-custom:hover {
+    background: #A36FD6;
+    box-shadow: 0 6px 12px 0 rgba(163, 111, 214, 0.7), 0 8px 25px 0 rgba(163, 111, 214, 0.9);
+}
+
+/* Ensure full height layout */
+.d-flex.flex-column.min-vh-100 {
+    min-height: 100vh;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.mt-auto {
+    margin-top: auto;
+}
+/* Banner Image Styles */
+.banner-section {
+    position: relative;
+    text-align: left; /* Align text to the left */
+}
+
+.banner-image {
+    width: 100%;
+    height: '200px'; /* Maintain aspect ratio */
+}
+.banner-section {
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the background image */
+    text-align: left;
+    height: 50vh; /* Set the height to 50% of the viewport height */
+    display: flex;
+    align-items: center; /* Vertically center the text */
+}
+
+.banner-text h2, .banner-text p {
+    color: #FFFFFF; /* White color for contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Shadow for readability */
+    /* Additional styling for text */
+}
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 10%; /* Adjust for left alignment */
+    transform: translateY(-50%);
+    font-size: 2em;
+    color: #FFFFFF; /* White color for contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for readability */
+    font-family: 'Montserrat', sans-serif; /* Consistent with the theme */
+    max-width: 60%; /* Optional: limits text width for better readability */
+}
+
+/* ... rest of the styles ... */
+.chatbot-container {
+    position: fixed;
+    bottom: 80px; /* Adjust based on the size of the footer and toggle icon */
+    right: 20px;
+    width: 300px; /* Adjust as needed */
+    height: 400px; /* Adjust as needed */
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 10px;
+    z-index: 1050;
+    /* More styles (like overflow handling) as needed */
+}
+
+/* Chatbot Toggle Icon Styles */
+.chatbot-toggle {
+    position: fixed;
+    bottom: 60px; /* Adjust so that it's just above the footer */
+    right: 20px;
+    background-color: #007bff; /* Color for the toggle button */
+    color: white; /* Color of the icon */
+    border-radius: 50%; /* Makes it a circle */
+    width: 50px; /* Size of the button */
+    height: 50px; /* Size of the button */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1050; /* Ensure it's above other elements */
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; /* optional: for rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* optional: for adding shadow */
+}
