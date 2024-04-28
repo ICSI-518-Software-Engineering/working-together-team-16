@@ -1,0 +1,606 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is the output of '2+3*5' in Python?",
+        "options": ["25", "17", "13", "None of the above"],
+        "answer": "17"
+      },
+      {
+        "id": 2,
+        "question": "Which of the following is a valid variable name in Python?",
+        "options": ["2var", "_var", "var!", "None of the above"],
+        "answer": "_var"
+      },
+      {
+        "id": 3,
+        "question": "What is the result of the expression '3 == 3.0' in Python?",
+        "options": ["True", "False"],
+        "answer": "True"
+      },
+      {
+        "id": 4,
+        "question": "What will be the output of the code 'print('Hello' * 3)'?",
+        "options": ["HelloHelloHello", "Hello\nHello\nHello\n", "HelloHelloHello\n"],
+        "answer": "HelloHelloHello"
+      },
+      {
+        "id": 5,
+        "question": "What is the correct way to create a function in Python?",
+        "options": ["def my_function():", "function my_function():", "define my_function():"],
+        "answer": "def my_function():"
+      },
+      {
+        "id": 6,
+        "question": "Which of the following data types is not supported in Python?",
+        "options": ["int", "float", "char", "str"],
+        "answer": "char"
+      },
+      {
+        "id": 7,
+        "question": "What does the 'range(3, 6)' function return in Python?",
+        "options": ["[3, 4, 5]", "[0, 1, 2, 3, 4, 5]", "[3, 4, 5, 6]", "[1, 2, 3, 4, 5, 6]"],
+        "answer": "[3, 4, 5]"
+      },
+      {
+        "id": 8,
+        "question": "How do you open a file named 'myfile.txt' in Python for reading?",
+        "options": ["file.open('myfile.txt', 'r')", "open('myfile.txt')", "open('myfile.txt', 'r')", "fopen('myfile.txt', 'r')"],
+        "answer": "open('myfile.txt', 'r')"
+      },
+      {
+        "id": 9,
+        "question": "Which of the following is a correct way to comment multiple lines in Python?",
+        "options": ["/* This is a comment */", "// This is a comment", "# This is a comment", "<!-- This is a comment -->"],
+        "answer": "# This is a comment"
+      },
+      {
+        "id": 10,
+        "question": "What is the output of the code 'print(type(type(int)))'?",
+        "options": ["int", "type", "<class 'type'>", "None"],
+        "answer": "<class 'type'>"
+      },
+      {
+        "id": 11,
+        "question": "What is the output of the code 'print('Hello' + 'World')'?",
+        "options": ["HelloWorld", "Hello World", "Hello + World", "Syntax Error"],
+        "answer": "HelloWorld"
+      },
+      {
+        "id": 12,
+        "question": "What does the 'len()' function do in Python?",
+        "options": ["Returns the length of a string", "Returns the length of a list", "Returns the length of a tuple", "All of the above"],
+        "answer": "All of the above"
+      },
+      {
+        "id": 13,
+        "question": "Which of the following is used to define a block of code in Python?",
+        "options": ["Parentheses", "Curly braces", "Indentation", "Quotation marks"],
+        "answer": "Indentation"
+      },
+      {
+        "id": 14,
+        "question": "What is the correct way to create an empty list in Python?",
+        "options": ["list = {}", "list = []", "list = ()", "list = None"],
+        "answer": "list = []"
+      },
+      {
+        "id": 15,
+        "question": "What is the output of the code 'print(5 // 2)'?",
+        "options": ["2.5", "2.0", "2", "2.00"],
+        "answer": "2"
+      },
+      {
+        "id": 16,
+        "question": "What is the correct way to convert the string '3.14' to a float?",
+        "options": ["float('3.14')", "str(3.14)", "int('3.14')", "3.14"],
+        "answer": "float('3.14')"
+      },
+      {
+        "id": 17,
+        "question": "Which of the following statements is true about Python?",
+        "options": ["Python is a high-level programming language", "Python is an interpreted language", "Python is dynamically typed", "All of the above"],
+        "answer": "All of the above"
+      },
+      {
+        "id": 18,
+        "question": "What will be the output of the code 'print('Python'[1:4])'?",
+        "options": ["Pyt", "yth", "ytho", "ythn"],
+        "answer": "yth"
+      },
+      {
+        "id": 19,
+        "question": "Which of the following is the correct way to check if a key exists in a dictionary?",
+        "options": ["key in dict", "dict[key]", "dict.contains(key)", "None of the above"],
+        "answer": "key in dict"
+      },
+      {
+        "id": 20,
+        "question": "What is the result of the expression 'True and False' in Python?",
+        "options": ["True", "False", "None", "Error"],
+        "answer": "False"
+      },
+      {
+        "id": 21,
+        "question": "What is the output of the code 'print(10 % 3)'?",
+        "options": ["3.33", "3.0", "3", "1"],
+        "answer": "1"
+      },
+      {
+        "id": 22,
+        "question": "What is the correct way to get the number of items in a list?",
+        "options": ["len(list)", "list.length()", "list.size()", "list.count()"],
+        "answer": "len(list)"
+      },
+      {
+        "id": 23,
+        "question": "What is the output of the code 'print('Hello'[::-1])'?",
+        "options": ["Hello", "olleH", "oellH", "Syntax Error"],
+        "answer": "olleH"
+      },
+      {
+        "id": 24,
+        "question": "What is the correct way to add an item to the end of a list?",
+        "options": ["list.add(item)", "list.insert(item)", "list.append(item)", "list.extend(item)"],
+        "answer": "list.append(item)"
+      },
+      {
+        "id": 25,
+        "question": "Which of the following is not a valid comparison operator in Python?",
+        "options": ["==", "!=", "<>", "><"],
+        "answer": "><"
+      },
+      {
+        "id": 26,
+        "question": "What is the output of the code 'print(bool(None))'?",
+        "options": ["True", "False", "None", "Syntax Error"],
+        "answer": "False"
+      },
+      {
+        "id": 27,
+        "question": "What will be the output of the code 'print(10 > 9 or 10 < 9)'?",
+        "options": ["True", "False", "None", "Syntax Error"],
+        "answer": "True"
+      },
+      {
+        "id": 28,
+        "question": "What is the correct way to convert the string '123' to an integer?",
+        "options": ["int('123')", "str(123)", "float('123')", "'123'"],
+        "answer": "int('123')"
+      },
+      {
+        "id": 29,
+        "question": "What is the output of the code 'print('Hello'.upper())'?",
+        "options": ["hello", "Hello", "HELLO", "hEllo"],
+        "answer": "HELLO"
+      },
+      {
+        "id": 30,
+        "question": "Which of the following is the correct way to remove an item from a list?",
+        "options": ["list.remove(item)", "list.delete(item)", "del list[item]", "list.pop(item)"],
+        "answer": "list.remove(item)"
+      },
+      {
+        "id": 31,
+        "question": "What is the result of the expression '2 ** 3' in Python?",
+        "options": ["6", "8", "16", "Syntax Error"],
+        "answer": "8"
+      },
+      {
+        "id": 32,
+        "question": "What will be the output of the code 'print(10 == '10')'?",
+        "options": ["True", "False", "None", "Syntax Error"],
+        "answer": "False"
+      },
+      {
+        "id": 33,
+        "question": "What is the correct way to get the keys of a dictionary?",
+        "options": ["dict.keys()", "dict.getKeys()", "dict.keySet()", "dict.keyValues()"],
+        "answer": "dict.keys()"
+      },
+      {
+        "id": 34,
+        "question": "What is the output of the code 'print('Python'[::2])'?",
+        "options": ["Pto", "Ptoh", "Pyn", "Ptn"],
+        "answer": "Ptoh"
+      },
+      {
+        "id": 35,
+        "question": "What is the correct way to check if a value exists in a list?",
+        "options": ["value.exists(list)", "list.hasValue(value)", "value in list", "list.contains(value)"],
+        "answer": "value in list"
+      },
+      {
+        "id": 36,
+        "question": "What is the output of the code 'print(not True)'?",
+        "options": ["True", "False", "None", "Syntax Error"],
+        "answer": "False"
+      },
+      {
+        "id": 37,
+        "question": "Which of the following is the correct way to merge two dictionaries in Python 3.5+?",
+        "options": ["dict1.merge(dict2)", "dict1 + dict2", "dict1.update(dict2)", "merge(dict1, dict2)"],
+        "answer": "dict1.update(dict2)"
+      },
+      {
+        "id": 38,
+        "question": "What is the output of the code 'print('Python'[1:])'?",
+        "options": ["Python", "ython", "ython'", "Syntax Error"],
+        "answer": "ython"
+      },
+      {
+        "id": 39,
+        "question": "What is the correct way to copy a list in Python?",
+        "options": ["new_list = list", "new_list = list.copy()", "new_list = list.clone()", "new_list = list[:]"],
+        "answer": "new_list = list.copy()"
+      },
+      {
+        "id": 40,
+        "question": "What will be the output of the code 'print(10 <= 9)'?",
+        "options": ["True", "False", "None", "Syntax Error"],
+        "answer": "False"
+      },
+      {
+        "id": 41,
+        "question": "What is the result of the expression 'not (True and False)' in Python?",
+        "options": ["True", "False", "None", "Syntax Error"],
+        "answer": "True"
+      },
+      {
+        "id": 42,
+        "question": "What is the correct way to get the current date and time in Python?",
+        "options": ["datetime.now()", "date.now()", "now()", "current_date_time()"],
+        "answer": "datetime.now()"
+      },
+      {
+        "id": 43,
+        "question": "What will be the output of the code 'print(10 != 10)'?",
+        "options": ["True", "False", "None", "Syntax Error"],
+        "answer": "False"
+      },
+      {
+        "id": 44,
+        "question": "What is the correct way to check if a value is not in a list?",
+        "options": ["value not in list", "list.hasNoValue(value)", "list.contains(value)", "value.isNotIn(list)"],
+        "answer": "value not in list"
+      },
+      {
+        "id": 45,
+        "question": "What is the output of the code 'print('Python'[::-1])'?",
+        "options": ["Python", "nohtyP", "Syntax Error", "Error"],
+        "answer": "nohtyP"
+      },
+      {
+        "id": 46,
+        "question": "Which of the following is the correct way to get the value associated with a key in a dictionary?",
+        "options": ["dict.get(key)", "dict[key]", "dict.value(key)", "dict.getKey(key)"],
+        "answer": "dict[key]"
+      },
+      {
+        "id": 47,
+        "question": "What is the output of the code 'print(10 < 9)'?",
+        "options": ["True", "False", "None", "Syntax Error"],
+        "answer": "False"
+      },
+      {
+        "id": 48,
+        "question": "What will be the output of the code 'print('Python'[2:4])'?",
+        "options": ["Py", "th", "tho", "tho"],
+        "answer": "th"
+      },
+      {
+        "id": 49,
+        "question": "What is the correct way to create a tuple in Python?",
+        "options": ["tuple = (1, 2, 3)", "tuple = {1, 2, 3}", "tuple = [1, 2, 3]", "tuple = '1, 2, 3'"],
+        "answer": "tuple = (1, 2, 3)"
+      },
+      {
+        "id": 50,
+        "question": "What is the output of the code 'print(10 == 10.0)'?",
+        "options": ["True", "False", "None", "Syntax Error"],
+        "answer": "True"
+      },
+      {
+        "id": 51,
+        "question": "What is the result of the expression '2 * 3 ** 3' in Python?",
+        "options": ["54", "162", "18", "36"],
+        "answer": "54"
+      },
+      {
+        "id": 52,
+        "question": "What will be the output of the code 'print(not False)'?",
+        "options": ["True", "False", "None", "Syntax Error"],
+        "answer": "True"
+      },
+      {
+        "id": 53,
+        "question": "What is the correct way to get the value at index 2 from a list?",
+        "options": ["list.index(2)", "list.get(2)", "list[2]", "list.value(2)"],
+        "answer": "list[2]"
+      },
+      {
+        "id": 54,
+        "question": "What is the output of the code 'print(10 % 2)'?",
+        "options": ["5.0", "5", "0", "10"],
+        "answer": "0"
+      },
+      {
+        "id": 55,
+        "question": "Which of the following is the correct way to iterate over a list in Python?",
+        "options": ["for i in range(len(list)):", "for i in list:", "for i in list.size():", "for i = 0; i < list.length(); i++:"],
+        "answer": "for i in list:"
+      },
+      {
+        "id": 56,
+        "question": "What is the output of the code 'print('Hello' + 1)'?",
+        "options": ["Hello1", "Hello 1", "Error", "Syntax Error"],
+        "answer": "Error"
+      },
+      {
+        "id": 57,
+        "question": "What does the 'str()' function do in Python?",
+        "options": ["Converts an object to a string", "Converts a string to an object", "Converts a string to uppercase", "Converts an object to uppercase"],
+        "answer": "Converts an object to a string"
+      },
+      {
+        "id": 58,
+        "question": "What is the correct way to check if a value is a string in Python?",
+        "options": ["value.isString()", "isinstance(value, str)", "value.type() == 'string'", "value.equals('string')"],
+        "answer": "isinstance(value, str)"
+      },
+      {
+        "id": 59,
+        "question": "What will be the output of the code 'print(10 >= 9)'?",
+        "options": ["True", "False", "None", "Syntax Error"],
+        "answer": "True"
+      },
+      {
+        "id": 60,
+        "question": "What is the correct way to get the current working directory in Python?",
+        "options": ["os.cwd()", "os.getwd()", "os.getcwd()", "os.current_dir()"],
+        "answer": "os.getcwd()"
+      },
+      {
+        "id": 61,
+        "question": "What is the output of the code 'print('Python'[1:5:2])'?",
+        "options": ["Pto", "Ptoh", "yh", "yo"],
+        "answer": "yh"
+      },
+      {
+        "id": 62,
+        "question": "Which of the following is the correct way to check if a value is in a dictionary?",
+        "options": ["value in dict", "dict.contains(value)", "dict.hasValue(value)", "None of the above"],
+        "answer": "value in dict"
+      },
+      {
+        "id": 63,
+        "question": "What is the result of the expression '3 + 2 * 4' in Python?",
+        "options": ["20", "15", "11", "Error"],
+        "answer": "11"
+      },
+      {
+        "id": 64,
+        "question": "What will be the output of the code 'print('Python'[2:])'?",
+        "options": ["Py", "th", "thon", "Syntax Error"],
+        "answer": "thon"
+      },
+      {
+        "id": 65,
+        "question": "What is the correct way to check if a value is a number in Python?",
+        "options": ["isnumeric(value)", "value.isNumber()", "isinstance(value, int)", "isnumber(value)"],
+        "answer": "isinstance(value, int)"
+      },
+      {
+        "id": 66,
+        "question": "What is the output of the code 'print('Python'[-1])'?",
+        "options": ["P", "n", "o", "Syntax Error"],
+        "answer": "n"
+      },
+      {
+        "id": 67,
+        "question": "What does the 'range()' function return in Python?",
+        "options": ["A list of numbers", "A tuple of numbers", "An iterator of numbers", "A dictionary of numbers"],
+        "answer": "An iterator of numbers"
+      },
+      {
+        "id": 68,
+        "question": "What is the output of the code 'print(10 ** 3)'?",
+        "options": ["1000", "30", "100", "10000"],
+        "answer": "1000"
+      },
+      {
+        "id": 69,
+        "question": "What is the correct way to remove a key from a dictionary in Python?",
+        "options": ["dict.remove(key)", "del dict[key]", "dict.pop(key)", "None of the above"],
+        "answer": "del dict[key]"
+      },
+      {
+        "id": 70,
+        "question": "What will be the output of the code 'print(10 == '10')'?",
+        "options": ["True", "False", "None", "Syntax Error"],
+        "answer": "False"
+      },
+      {
+        "id": 71,
+        "question": "What is the result of the expression '3 * (2 + 4)' in Python?",
+        "options": ["10", "18", "12", "Syntax Error"],
+        "answer": "18"
+      },
+      {
+        "id": 72,
+        "question": "What is the output of the code 'print('Python'[1::2])'?",
+        "options": ["Py", "Pto", "yh", "yhn"],
+        "answer": "yhn"
+      },
+      {
+        "id": 73,
+        "question": "Which of the following is the correct way to check if a key exists in a dictionary?",
+        "options": ["key.exists(dict)", "dict.contains(key)", "key in dict", "None of the above"],
+        "answer": "key in dict"
+      },
+      {
+        "id": 74,
+        "question": "What is the correct way to get the last item from a list?",
+        "options": ["list.getLast()", "list.get(-1)", "list[-1]", "list.last()"],
+        "answer": "list[-1]"
+      },
+      {
+        "id": 75,
+        "question": "What is the output of the code 'print(True or False)'?",
+        "options": ["True", "False", "None", "Syntax Error"],
+        "answer": "True"
+      },
+      {
+        "id": 76,
+        "question": "What is the correct way to convert the string '123' to an integer?",
+        "options": ["int('123')", "str(123)", "float('123')", "'123'"],
+        "answer": "int('123')"
+      },
+      {
+        "id": 77,
+        "question": "What will be the output of the code 'print(10 < 9)'?",
+        "options": ["True", "False", "None", "Syntax Error"],
+        "answer": "False"
+      },
+      {
+        "id": 78,
+        "question": "What is the result of the expression 'not (True and False)' in Python?",
+        "options": ["True", "False", "None", "Syntax Error"],
+        "answer": "True"
+      },
+      {
+        "id": 79,
+        "question": "What is the output of the code 'print(10 >= 9)'?",
+        "options": ["True", "False", "None", "Syntax Error"],
+        "answer": "True"
+      },
+      {
+        "id": 80,
+        "question": "What is the correct way to create a tuple in Python?",
+        "options": ["tuple = (1, 2, 3)", "tuple = {1, 2, 3}", "tuple = [1, 2, 3]", "tuple = '1, 2, 3'"],
+        "answer": "tuple = (1, 2, 3)"
+      },
+      {
+        "id": 81,
+        "question": "What is the output of the code 'print(10 == 10.0)'?",
+        "options": ["True", "False", "None", "Syntax Error"],
+        "answer": "True"
+      },
+      {
+        "id": 82,
+        "question": "What is the result of the expression '2 * 3 ** 3' in Python?",
+        "options": ["54", "162", "18", "36"],
+        "answer": "54"
+      },
+      {
+        "id": 83,
+        "question": "What will be the output of the code 'print(not False)'?",
+        "options": ["True", "False", "None", "Syntax Error"],
+        "answer": "True"
+      },
+      {
+        "id": 84,
+        "question": "What is the correct way to get the value at index 2 from a list?",
+        "options": ["list.index(2)", "list.get(2)", "list[2]", "list.value(2)"],
+        "answer": "list[2]"
+      },
+      {
+        "id": 85,
+        "question": "What is the output of the code 'print(10 % 2)'?",
+        "options": ["5.0", "5", "0", "10"],
+        "answer": "0"
+      },
+      {
+        "id": 86,
+        "question": "Which of the following is the correct way to iterate over a list in Python?",
+        "options": ["for i in range(len(list)):", "for i in list:", "for i in list.size():", "for i = 0; i < list.length(); i++:"],
+        "answer": "for i in list:"
+      },
+      {
+        "id": 87,
+        "question": "What is the output of the code 'print('Hello' + 1)'?",
+        "options": ["Hello1", "Hello 1", "Error", "Syntax Error"],
+        "answer": "Error"
+      },
+      {
+        "id": 88,
+        "question": "What does the 'str()' function do in Python?",
+        "options": ["Converts an object to a string", "Converts a string to an object", "Converts a string to uppercase", "Converts an object to uppercase"],
+        "answer": "Converts an object to a string"
+      },
+      {
+        "id": 89,
+        "question": "What is the correct way to check if a value is a string in Python?",
+        "options": ["value.isString()", "isinstance(value, str)", "value.type() == 'string'", "value.equals('string')"],
+        "answer": "isinstance(value, str)"
+      },
+      {
+        "id": 90,
+        "question": "What will be the output of the code 'print(10 >= 9)'?",
+        "options": ["True", "False", "None", "Syntax Error"],
+        "answer": "True"
+      },
+      {
+        "id": 91,
+        "question": "What is the result of the expression '3 * (2 + 4)' in Python?",
+        "options": ["10", "18", "12", "Syntax Error"],
+        "answer": "18"
+      },
+      {
+        "id": 92,
+        "question": "What is the output of the code 'print('Python'[1::2])'?",
+        "options": ["Py", "Pto", "yh", "yhn"],
+        "answer": "yhn"
+      },
+      {
+        "id": 93,
+        "question": "Which of the following is the correct way to check if a key exists in a dictionary?",
+        "options": ["key.exists(dict)", "dict.contains(key)", "key in dict", "None of the above"],
+        "answer": "key in dict"
+      },
+      {
+        "id": 94,
+        "question": "What is the result of the expression '3 * (2 + 4)' in Python?",
+        "options": ["10", "18", "12", "Syntax Error"],
+        "answer": "18"
+      },
+      {
+        "id": 95,
+        "question": "What is the output of the code 'print(10 >= 9)'?",
+        "options": ["True", "False", "None", "Syntax Error"],
+        "answer": "True"
+      },
+      {
+        "id": 96,
+        "question": "What is the correct way to create a tuple in Python?",
+        "options": ["tuple = (1, 2, 3)", "tuple = {1, 2, 3}", "tuple = [1, 2, 3]", "tuple = '1, 2, 3'"],
+        "answer": "tuple = (1, 2, 3)"
+      },
+      {
+        "id": 97,
+        "question": "What is the output of the code 'print(10 == 10.0)'?",
+        "options": ["True", "False", "None", "Syntax Error"],
+        "answer": "True"
+      },
+      {
+        "id": 98,
+        "question": "What is the result of the expression '2 * 3 ** 3' in Python?",
+        "options": ["54", "162", "18", "36"],
+        "answer": "54"
+      },
+      {
+        "id": 99,
+        "question": "What will be the output of the code 'print(not False)'?",
+        "options": ["True", "False", "None", "Syntax Error"],
+        "answer": "True"
+      },
+      {
+        "id": 100,
+        "question": "What is the correct way to get the value at index 2 from a list?",
+        "options": ["list.index(2)", "list.get(2)", "list[2]", "list.value(2)"],
+        "answer": "list[2]"
+      }
+    ]
+  }
+  
+  
