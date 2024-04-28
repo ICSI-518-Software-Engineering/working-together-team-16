@@ -72,7 +72,7 @@ function Codeeditor() {
   };
 
   const sendMessageToAI = (output, code) => {
-    const apiKey = "sk-proj-ZhPobLeyjyM2ILxaYJslT3BlbkFJIzaPTDbw2YI6P63XK03Q";
+    const apiKey = "ssk-proj-3QgxleP2X9TV4gXUfNNgT3BlbkFJjFp0J334Ixg5K2tDzIfT";
     const endpoint = "https://api.openai.com/v1/chat/completions";
 
     const requestData = {
