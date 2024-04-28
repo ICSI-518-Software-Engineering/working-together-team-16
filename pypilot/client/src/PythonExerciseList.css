@@ -1,0 +1,37 @@
+.exercise-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .exercise-list {
+    list-style: none;
+    padding: 0;
+  }
+  b {
+    color: black;
+  }
+  p {
+    color: black;
+  }
+  
+  .exercise-item {
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .exercise-title {
+    margin-top: 0;
+  }
+  
+  .exercise-code {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+  }
+  
